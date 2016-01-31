@@ -1,0 +1,62 @@
+/* Medium screens (640px) */
+@media (min-width: 40rem) {
+  /* line 5, /Users/jmmaniego/Desktop/exercise/myfirstapp/app/assets/stylesheets/grid.scss */
+  html {
+    font-size: 112%;
+  }
+
+  /* line 7, /Users/jmmaniego/Desktop/exercise/myfirstapp/app/assets/stylesheets/grid.scss */
+  .column {
+    float: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  /* line 13, /Users/jmmaniego/Desktop/exercise/myfirstapp/app/assets/stylesheets/grid.scss */
+  .column.full {
+    width: 100%;
+  }
+
+  /* line 14, /Users/jmmaniego/Desktop/exercise/myfirstapp/app/assets/stylesheets/grid.scss */
+  .column.two-thirds {
+    width: 66.7%;
+  }
+
+  /* line 15, /Users/jmmaniego/Desktop/exercise/myfirstapp/app/assets/stylesheets/grid.scss */
+  .column.half {
+    width: 50%;
+  }
+
+  /* line 16, /Users/jmmaniego/Desktop/exercise/myfirstapp/app/assets/stylesheets/grid.scss */
+  .column.third {
+    width: 33.3%;
+  }
+
+  /* line 17, /Users/jmmaniego/Desktop/exercise/myfirstapp/app/assets/stylesheets/grid.scss */
+  .column.fourth {
+    width: 25%;
+  }
+
+  /* line 18, /Users/jmmaniego/Desktop/exercise/myfirstapp/app/assets/stylesheets/grid.scss */
+  .column.flow-opposite {
+    float: right;
+  }
+}
+/* Large screens (1024px) */
+@media (min-width: 64rem) {
+  /* line 23, /Users/jmmaniego/Desktop/exercise/myfirstapp/app/assets/stylesheets/grid.scss */
+  html {
+    font-size: 120%;
+  }
+}
+/* line 26, /Users/jmmaniego/Desktop/exercise/myfirstapp/app/assets/stylesheets/grid.scss */
+.container {
+  margin: 0 auto;
+  max-width: 48rem;
+  width: 90%;
+}
+
+/* line 32, /Users/jmmaniego/Desktop/exercise/myfirstapp/app/assets/stylesheets/grid.scss */
+.row {
+  margin-bottom: 10px;
+}
