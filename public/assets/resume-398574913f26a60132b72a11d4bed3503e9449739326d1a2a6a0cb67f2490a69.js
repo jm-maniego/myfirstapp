@@ -1,0 +1,1 @@
+(function(){$(function(){return $("#nickname").typed({strings:["JM","Migi","Juan Miguel","Ige"],loop:!0,typeSpeed:269})})}).call(this);
