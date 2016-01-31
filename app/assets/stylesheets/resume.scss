@@ -174,21 +174,21 @@ body {
 
 @media (min-width: 64rem) {
   #profile-bg {
-    background: url('profile-bg.jpg') no-repeat;
+    background: asset_url('profile-bg.jpg') no-repeat;
   }
 
   #experiences-bg {
-    background: url('experiences-bg.jpg') no-repeat;
+    background: asset_url('experiences-bg.jpg') no-repeat;
     background-position: right center;
   }
 
   #skills-bg {
-    background: url('skills-bg.jpg') no-repeat;
+    background: asset_url('skills-bg.jpg') no-repeat;
     background-position: 0% 76%;
   }
 
   #projects-bg {
-    background: url('projects-bg.jpg') no-repeat;
+    background: asset_url('projects-bg.jpg') no-repeat;
     background-position: right center;
   }
 
