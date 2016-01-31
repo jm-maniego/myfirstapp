@@ -34,15 +34,13 @@ body {
 #experiences,
 #skills,
 #projects {
-  height: 100%;
+  display: flex;
   > div {
-    height: 100%;
-  }
-  > :first-child {
-    float: left;
-  }
-  > :last-child {
-    float:right;
+    flex: 1;
+    min-height: 400px;
+    padding: 1rem;
+    padding-bottom: 11rem;
+    padding-top: 11rem;
   }
 }
 
@@ -246,4 +244,5 @@ ul.description {
 .position {
   font-size: 1.3rem;
   opacity: .7;
+  margin-bottom: 1.6rem;
 }
