@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>jmmaniego</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    "#{controller_name}", media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag "#{controller_name}", 'data-turbolinks-track' => true %>
+
+  <%= csrf_meta_tags %>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <%= yield :head %>
+</head>
+<body>
+
+  <%= yield %>
+  <footer id="main-footer">
+
+  </footer>
+</body>
+</html>

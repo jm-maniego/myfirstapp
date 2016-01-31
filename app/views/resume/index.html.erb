@@ -1,0 +1,140 @@
+<% content_for :head do %>
+<%= javascript_include_tag 'typed', 'data-turbolinks-track' => true %>
+<% end %>
+
+<div id="contact">
+  <div id="facebook" class="contact-button">
+    <%= link_to image_tag("facebook.png"), "https://www.facebook.com/jm.pmaniego", target: "_blank" %>
+  </div>
+  <div id="twitter" class="contact-button">
+    <%= link_to image_tag("twitter.png"), target: "_blank" %>
+  </div>
+  <nav id="main-nav">
+    <ul>
+      <li><a href="#profile">Profile</a></li>
+      <li><a href="#experiences">Experiences</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+    </ul>
+  </nav>
+</div>
+<div id="profile" class="">
+  <div id="profile-bg" class="bg shadow-inset">
+    <div class="content">
+      <h1 class="title">Hi! I'm <span id="nickname"></span></h1 class="title">
+    </div>
+    <div class="overlay">
+    </div>
+  </div>
+  <div id="profile-details">
+    <div class="container">
+      <div class="row cf">
+        <div class="position text-center">Ruby on Rails Developer</div>
+      </div>
+      <div class="row cf">
+        <div class="column half">
+          <%= image_tag "jmjm-fx-cropped.jpg", id: "profile-image" %>
+        </div>
+        <div class="column half">
+          <p>
+            <div>
+              Name
+            </div>
+            <span class="significant">Juan Miguel Maniego</span>
+          </p>
+          <p>
+            <div>
+              Age
+            </div>
+            <span class="significant"><%= ((Date.today - Date.parse('09/06/1993')).to_i / 365) %> Years</span>
+          </p>
+          <p>
+            <div>
+              Location
+            </div>
+            <span class="significant">BF Homes, Parañaque City, Philippines</span>
+          </p>
+        </div>
+      </div>
+      <div class="row cf">
+        <div class="column full">
+          <p>
+            <ul class="description">
+              <li>Graduated as Information Technology in Colegio de San Juan de Letran</li>
+              <li>Had 6 months Ruby on Rails training in Gaiax Asia Corp</li>
+              <li>Rails Developer 2013</li>
+              <li>Comfortable on both back-end and front-end development</li>
+              <li>Full stack developer in the making</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<div id="experiences" class="cf">
+  <div id="experiences-details">
+    <div class="container">
+      <div class="row cf">
+        <div class="row cf">
+          Career
+        </div>
+        <div class="row cf">
+          <div class="column third">
+            <div>Gaiax Asia Corp.</div>
+            <div>Jun 2015 - Feb 2015</div>
+          </div>
+          <div class="column two-thirds">
+            <div>Web Developer</div>
+            <div>LOL</div>
+          </div>
+        </div>
+      </div>
+      <div class="row cf">
+        <div class="row cf">
+          Education
+        </div>
+        <div class="row cf">
+          <div class="column third">
+            <div>Gaiax Asia Corp.</div>
+            <div>Jun 2015 - Feb 2015</div>
+          </div>
+          <div class="column two-thirds">
+            <div>Web Developer</div>
+            <div>LOL</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="experiences-bg" class="bg shadow-inset">
+    <div class="content">
+      <h1 class="title">Experiences</h1 class="title">
+    </div>
+    <div class="overlay"></div>
+  </div>
+</div>
+<div id="skills" class="cf">
+  <div id="skills-bg" class="bg shadow-inset">
+    <div class="content">
+      <h1 class="title">Skills</h1 class="title">
+    </div>
+    <div class="overlay"></div>
+  </div>
+  <div id="skills-details">
+    <div class="content"></div>
+  </div>
+</div>
+<div id="projects" class="cf">
+  <div id="projects-details">
+    <div class="content">
+    </div>
+  </div>
+  <div id="projects-bg"  class="bg shadow-inset">
+    <div class="content">
+      <h1 class="title">Projects</h1 class="title">
+    </div>
+    <div class="overlay"></div>
+  </div>
+</div>
