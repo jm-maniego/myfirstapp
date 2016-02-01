@@ -2,6 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 $jmjm: beige;
+$charcoal: #434242;
 
 .typed-cursor{
     opacity: 1;
@@ -26,6 +27,7 @@ $jmjm: beige;
 }
 
 body {
+  border-top: 2.1px $charcoal solid;
   background: #FAFAFA;
   background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAHklEQVQIW2NkQAWSjEh8SSD7OUwAzAFJggTgHJAAAEkuAx5OdRJCAAAAAElFTkSuQmCC');
 }
@@ -57,22 +59,22 @@ body {
   background-attachment: fixed !important;
   background-size: 54% auto !important;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 
   .title {
-    position: absolute;
     margin: auto;
     z-index: 5;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    // left: 50%;
     font-size: 5em;
     color: white;
     border-bottom: 1px solid rgba(255,255,255,0.8);
     padding: 10px;
     width: 80%;
     text-align: center;
-    text-shadow: 0 0 10px rgba(0,0,0,0.2);
+    text-shadow: 0 0 10px rgba(0,0,0,1);
   }
 }
 
@@ -84,6 +86,15 @@ body {
   max-width: 46%;
   //background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAHklEQVQIW2NkQAWSjEh8SSD7OUwAzAFJggTgHJAAAEkuAx5OdRJCAAAAAElFTkSuQmCC');
   padding-top: 1rem;
+}
+
+#experiences-details,
+#projects-details {
+  border-left: 72px $charcoal solid ;
+}
+
+#skills-details {
+  border-right: 72px $charcoal solid ;
 }
 
 #profile-details,
@@ -194,7 +205,7 @@ body {
 
 #main-footer {
   height: 150px;
-  background-color: #434242;
+  background-color: $charcoal;
 }
 
 .thin {
